@@ -1,6 +1,7 @@
 .Dictionary {
-  background-color: rgb(58, 138, 126, 0.6);
+  background-color: rgba(231, 226, 232, 0.95);
   border-radius: 5px;
+  color: #082b41;
   margin: 0 auto;
   max-width: 800px;
   padding: 15px 20px;
