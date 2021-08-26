@@ -15,8 +15,16 @@ function App() {
           Coded by{" "}
           <a href="https://www.annaknol.be" target="_blank" rel="noreferrer">
             Anna Knol
+          </a>{" "}
+          (
+          <a
+            href="https://github.com/AnnaKnol/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-source
           </a>
-          , background-image from{" "}
+          ), background-image from{" "}
           <a href="https://www.rawpixel.com" target="_blank" rel="noreferrer">
             rawpixel
           </a>
