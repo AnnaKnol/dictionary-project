@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Dictionary from "./Dictionary";
 
 import "./index.css";
 
@@ -7,7 +8,19 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Hello</header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="text-center">
+          Coded by{" "}
+          <a href="https://www.annaknol.be" target="_blank" rel="noreferrer">
+            Anna Knol
+          </a>
+          , background-image from{" "}
+          <a href="https://www.rawpixel.com" target="_blank" rel="noreferrer">
+            rawpixel
+          </a>
+        </footer>
       </div>
     </div>
   );
