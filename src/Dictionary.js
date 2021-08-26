@@ -28,15 +28,20 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input
-          type="search"
-          id="search_form"
-          className="form-control"
-          placeholder="Search for a word"
-          onChange={handleChange}
-        />
-      </form>
+      <div className="Dictionary-header">
+        <h1 className="text-center">Dictionary</h1>
+        <strong>What word are you looking for?</strong>
+        <form onSubmit={search}>
+          <input
+            type="search"
+            id="search_form"
+            className="form-control"
+            placeholder="Search for a word"
+            onChange={handleChange}
+            autoComplete="off"
+          />
+        </form>
+      </div>
       {results.map(function (result, index) {
         return <Results results={result} key={index} />;
       })}
