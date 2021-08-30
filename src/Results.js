@@ -5,7 +5,6 @@ import Phonetic from "./Phonetic";
 import "./Results.css";
 
 export default function Results(props) {
-  console.log(props.results.phonetics);
   return (
     <div className="Results">
       <h2>{props.results.word}</h2>
