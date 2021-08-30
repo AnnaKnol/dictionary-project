@@ -1,3 +1,7 @@
+.Meaning {
+  margin-bottom: 25px;
+}
+
 .Meaning h3 {
   font-weight: 300;
 }
@@ -12,5 +16,5 @@
 
 .Meaning em {
   display: block;
-  margin: 10px 0 20px 15px;
+  margin: 10px 0 15px 15px;
 }
