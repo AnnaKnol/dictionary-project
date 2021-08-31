@@ -1,4 +1,14 @@
 .Phonetic .audioPlayer {
   height: 35px;
+  margin: 0 0 0 10px;
   width: 15%;
+}
+
+.Phonetic {
+  line-height: 35px;
+  opacity: 0.7;
+}
+
+.Phonetic .float-left {
+  float: left;
 }

@@ -1,0 +1,21 @@
+.Synonyms {
+  padding: 0;
+  margin-left: -25px;
+  margin-bottom: 20px;
+}
+
+.Synonyms li {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #3b8a7d;
+  border-radius: 18px;
+  display: inline-block;
+  margin: 2px 5px;
+  padding: 5px 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.Synonyms li:hover {
+  background-color: #3b8a7d;
+  color: #e9f1f3;
+  cursor: pointer;
+}

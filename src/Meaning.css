@@ -16,5 +16,6 @@
 
 .Meaning em {
   display: block;
+  font-weight: 200;
   margin: 10px 0 15px 15px;
 }

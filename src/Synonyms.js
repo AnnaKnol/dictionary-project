@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Synonyms";
+import "./Synonyms.css";
 
 export default function Synonyms(props) {
   if (props.synonyms.length > 0) {
