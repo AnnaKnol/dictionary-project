@@ -1,6 +1,7 @@
 import React from "react";
 import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
+import Origin from "./Origin";
 
 import "./Results.css";
 
@@ -19,6 +20,7 @@ export default function Results(props) {
           return null;
         }
       })}
+      <Origin origin={props.results.origin} />
       {props.results.meanings.map(function (meaning, index) {
         return (
           <div key={index}>
