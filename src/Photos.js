@@ -9,7 +9,7 @@ export default function Photos(props) {
         {props.photos.map(function (photo, index) {
           let description = photo.url.slice(29, -9);
           return (
-            <div className="col-4" key={index}>
+            <div className="col-sm-6 col-md-4" key={index}>
               <a href={photo.src.original} target="_blank" rel="noreferrer">
                 <img
                   src={photo.src.landscape}
