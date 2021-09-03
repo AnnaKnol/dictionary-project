@@ -4,7 +4,7 @@
   max-width: 800px;
 }
 
-.Dictionary-header {
+section {
   background-color: rgba(231, 226, 232, 0.95);
   border-radius: 5px;
   box-shadow: 0px 3px 10px rgba(11, 47, 70, 0.2);
