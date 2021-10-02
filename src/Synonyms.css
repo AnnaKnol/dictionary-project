@@ -16,6 +16,10 @@
 
 .Synonyms li:hover {
   background-color: #3b8a7d;
-  color: #e9f1f3;
   cursor: pointer;
+}
+
+.Synonyms a {
+  text-decoration: none;
+  color: #082b41;
 }

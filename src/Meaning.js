@@ -16,8 +16,14 @@ export default function Meaning(props) {
               <div>
                 {definition.definition}
                 <Example example={definition.example} />
-                <Synonyms synonyms={definition.synonyms} />
-                <Antonyms antonyms={definition.antonyms} />
+                <Synonyms
+                  synonyms={definition.synonyms}
+                  acceptClickWord={props.acceptClickWord}
+                />
+                <Antonyms
+                  antonyms={definition.antonyms}
+                  acceptClickWord={props.acceptClickWord}
+                />
               </div>
             </li>
           );

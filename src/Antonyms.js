@@ -7,7 +7,13 @@ export default function Antonyms(props) {
     return (
       <ul className="Antonyms">
         {props.antonyms.map(function (antonym, index) {
-          return <li key={index}>{antonym}</li>;
+          return (
+            <li key={index}>
+              <a href="/" onClick={props.acceptClickWord}>
+                {antonym}
+              </a>
+            </li>
+          );
         })}
       </ul>
     );

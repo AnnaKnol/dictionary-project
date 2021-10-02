@@ -17,6 +17,10 @@
 .Antonyms li:hover {
   background-color: #3b8a7d;
   border-color: #3b8a7d;
-  color: #e9f1f3;
   cursor: pointer;
+}
+
+.Antonyms a {
+  text-decoration: none;
+  color: #e9f1f3;
 }
