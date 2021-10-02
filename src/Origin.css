@@ -1,3 +1,8 @@
 .Origin {
   margin: 18px;
 }
+
+.Origin a {
+  color: #082b41;
+  font-weight: bold;
+}
